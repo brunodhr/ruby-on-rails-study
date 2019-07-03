@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   get 'welcome/index'
+
+  resources :articles
   
   # Acho que define o controller welcome e definição index como a url / do site 
   root 'welcome#index'

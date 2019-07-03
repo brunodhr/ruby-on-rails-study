@@ -1,5 +1,8 @@
 {
   "name": "ruby-on-rails-studies",
   "private": true,
-  "dependencies": {}
+  "dependencies": {},
+  "scripts": {
+    "start": "bin/rails server"
+  }
 }

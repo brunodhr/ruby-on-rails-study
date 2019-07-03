@@ -1,0 +1,20 @@
+<h1>Lista de posts</h1>
+ 
+<table>
+  <tr>
+    <th>Título</th>
+    <th>Texto</th>
+    <th></th>
+  </tr>
+ 
+  <% @articles.each do |article| %>
+    <tr>
+      <td><%= article.title %></td>
+      <td><%= article.text %></td>
+      <td><%= link_to 'Ver', article_path(article) %></td>
+    </tr>
+  <% end %>
+</table>
+
+
+<%= link_to 'Cadastrar novo post', new_article_path %>

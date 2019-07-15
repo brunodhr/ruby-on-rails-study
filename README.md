@@ -1,1 +1,1 @@
-https://guides.rubyonrails.org/getting_started.html#adding-a-second-model
+https://guides.rubyonrails.org/getting_started.html#rendering-a-partial-form
